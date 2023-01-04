@@ -1,0 +1,184 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #404146;
+    color: white;
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+}
+    
+header li {   
+    float: left;
+    padding: 14px 15px 14px 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header h2 {
+    float: left;
+    letter-spacing: 5px;
+    padding: 8px 20px 8px 20px;
+}
+
+/* lanjut ke bagian top website */
+
+.judul {
+    height: 650px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.judul h1 {
+    font-size: 110px;
+    letter-spacing: 4px;
+    color: #404146;
+    padding: 70px 0 0 0;
+}
+
+.judul span {
+    color: #f1d00e;
+}
+
+.judul h3 {
+    font-size: 45px;
+    font-weight: lighter;
+    padding: 17px 0 17px 0;
+}
+
+img.ninja-ungu {
+    height: 250px;
+}
+
+/* lanjut ke lorem ipsum bagian biodata atau tentang saya */
+
+.about-me {
+    height: 320px;
+    background-color: #f4f4f4;
+    color: #404146;
+    text-align: center;
+}
+
+.about-me h4 {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.about-me p {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+/* lanjut ke macam-macam proyek */
+
+.projectskuy {
+    height: 430px;
+    color: #404146;
+}
+
+.projectskuy h4 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.exproyek img {
+    height: 200px;
+    box-shadow: 2px 2px 8px rgba(34, 7, 26, 0.18);
+}
+.exproyek {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.exproyek p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Bagian form ya ges ya */
+
+.contact-form {
+    height: 430px;
+    background-color: #f4f4f4;
+    color: #404146;
+    text-align: center;
+}
+
+.contact-form h4 {
+    font-size: 20px;
+    padding: 60px 0 35px 0;
+}
+
+form {
+    width: 600px;
+    align-items: center;
+    padding-left: 325px;
+}
+
+.forms {
+    border: 1px solid white;
+    background-color: white;
+    width: 600px;
+    margin: 10px 0 30px 0;
+    padding: 14px;
+    border-radius: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button-kirim {
+    width: 370px;
+    background-color: #f7e989;
+    border: 1px solid #f7e989;
+    padding: 14px;
+    color: #404146;
+    border-radius: 12px;
+    margin-left: 4px;
+}
+
+/* bagian footer, akhirnya selesai wkwk */
+
+footer {
+    height: 100px;
+    background-color: #7c7d82;
+    color: white;
+    padding: 40px;
+    z-index: 99;
+}
+
+.footer-logo {
+    font-size: 24px;
+    letter-spacing: 4px;
+    float: left;
+}
+
+.list-footermenu {
+    float: right;
+    line-height: 35px;
+}
+
+.list-footermenu a {
+    text-decoration: none;
+    color: white;
+}
