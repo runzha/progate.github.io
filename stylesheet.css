@@ -121,7 +121,7 @@ img.ninja-ungu {
 /* Bagian form ya ges ya */
 
 .contact-form {
-    height: 430px;
+    min-height: 430px;
     background-color: #f4f4f4;
     color: #404146;
     text-align: center;
